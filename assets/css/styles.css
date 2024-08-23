@@ -6,7 +6,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 142; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 240; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -497,20 +497,27 @@ img {
 .skills__css {
   width: 85%;
 }
+.skills__Bootstrap {
+  width: 85%;
+}
 .skills__JavaScript {
-  width: 60%;
+  width: 80%;
 }
 
 .skills__React {
   width: 70%;
 }
 
-.skills__Bootstrap {
-  width: 50%;
+.skills__Python {
+  width: 80%;
 }
 
-.skills__Tailwind {
+.skills__Django {
   width: 70%;
+}
+
+.skills__Postgresql {
+  width: 60%;
 }
 
 .skills__WordPress {
@@ -520,14 +527,25 @@ img {
 .skills__Jira {
   width: 90%;
 }
-.skills__Asana {
+.skills__GitPod {
   width: 90%;
 }
 .skills__VSC {
   width: 90%;
 }
 .skills__GitHub {
+  width: 90%;
+}
+.skills__Heroku {
   width: 70%;
+}
+
+.skills__Slack {
+  width: 90%;
+}
+
+.skills__Canva {
+  width: 80%;
 }
 
 .skills__close .skills__list {
