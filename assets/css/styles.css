@@ -6,7 +6,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 150; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -637,25 +637,29 @@ img {
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   overflow: initial;
+  padding: 2rem;
+  max-width: 1200px; /* Increase the max width of the container */
+  margin: 0 auto;
 }
 
 .protfolio__content {
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 530px;
   border-radius: 0.5rem;
   justify-self: center;
 }
 
 .portfolio__title {
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-5);
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-1);
 }
 
 .portfolio__description {
-  margin-bottom: var(--mb-0-75);
+  font-size: 1rem;
+  margin-bottom: var(--mb-1);
 }
 
 .portfolio__button:hover .button__icon {
@@ -955,7 +959,7 @@ img {
   }
 
   .portfolio__img {
-    width: 320px;
+    width: 530px;
   }
   .protfolio__content {
     align-items: center;
